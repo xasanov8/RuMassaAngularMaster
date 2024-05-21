@@ -33,6 +33,8 @@ import { NovostiComponent } from './Pages/novosti/novosti.component';
 import { NovostiOneComponent } from './Pages/novosti/novosti-one/novosti-one.component';
 import { OtzifComponent } from './Pages/otzif/otzif.component';
 import { OtzifOneComponent } from './Pages/otzif/otzif-one/otzif-one.component';
+import { OPComponent } from './Pages/o-p/o-p.component';
+import { OPOneComponent } from './Pages/o-p/o-p-one/o-p-one.component';
 
 @NgModule({
   declarations: [
@@ -66,6 +68,8 @@ import { OtzifOneComponent } from './Pages/otzif/otzif-one/otzif-one.component';
     NovostiOneComponent,
     OtzifComponent,
     OtzifOneComponent,
+    OPComponent,
+    OPOneComponent,
   ],
   imports: [
     BrowserModule,
